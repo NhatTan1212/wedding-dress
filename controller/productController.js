@@ -1,7 +1,7 @@
 
 const { database } = require('../config');
 const { ObjectId } = require('mongodb');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const getProduct = async (req, res) => {
     try {

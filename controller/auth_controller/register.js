@@ -2,7 +2,7 @@
 const { database } = require('../../config.js');
 const { ObjectId } = require('mongodb');
 const mailer = require('../../utils/mailer.js');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 const registerAccount = async (req, res) => {
     try {
