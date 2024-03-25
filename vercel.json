@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "index.js",
+        "src": "./index.js",
         "use": "@vercel/node"
       }
     ],
@@ -11,9 +11,6 @@
         "src": "/(.*)",
         "dest": "/"
       }
-    ],
-    "env": {
-      "MONGODB_URI": "mongodb+srv://websitebanlaptop:yuUjVMzFxKvBXeKl@nhattan.cagsuxt.mongodb.net/?retryWrites=true&w=majority&appName=NhatTan"
-    }
+    ]
   }
   
